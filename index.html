@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./fonts/flaticon/font/flaticon.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="fonts/icomoon/style.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <title>BigH</title>
+  </head>
+  <body>
+    <!-- header  -->
+    <header>
+      <nav
+        class="
+          navbar navbar-expand-lg navbar-dark
+          bg-transparent
+          container
+        "
+      >
+        <a class="navbar-brand" href="#"><img src="./images/logo-removebg-preview.png" style="width:100px;height:100px" alt=""></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Trang chủ<span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Về chúng tôi</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Dịch vụ
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Hàng không</a>
+                <a class="dropdown-item" href="#">Đường biển</a>
+                <a class="dropdown-item" href="#">Đất liền</a>
+                <a class="dropdown-item" href="#">Hàng hóa</a>
+                <a class="dropdown-item" href="#">Kho bãi</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Mục khác</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Đăng ký</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+              Đăng nhập
+            </button>
+          </form>
+        </div>
+      </nav>
+
+      <div class="mid container text-center align-items-center mt-3">
+        <h1 class="display-4  mid__big-size" data-aos="fade-down" style="font-family: 'Rampart One', cursive;">BigH</h1>
+        <p class="py-2 mx-auto mt-5" data-aos="fade-up">
+          Cung cấp <span class="typing"></span>
+        </p>
+        <div class="row my-auto pt-5" data-aos="fade-up" data-aos-delay="500">
+          <button class="btn  px-5 firs-btn" type="submit">Tìm kiếm</button>
+          <a class="scroll-to-banner" href="#carouselExampleCaptions"><button class="btn  px-5 sec-btn" type="submit">Xem thêm</button></a>
+        </div>
+        <!-- <img
+          data-aos="fade-up"
+          data-aos-delay="1000"
+          class="img-fluid w-100 my-5"
+          src="./images/banner.png"
+          alt="" style="border-radius:10px"
+        /> -->
+
+        <div id="carouselExampleCaptions" class="carousel slide mt-5 pt-5" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./images/hero_bg_1.jpg" class="w-75 " alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Tốc độ</h5>
+                <p class="text-light">Cung cấp dịch vụ vận tải hậu cần khắp toàn cầu.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./images/hero_bg_2.jpg" class="w-75 " alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Chất lượng</h5>
+                <p class="text-light">Cung cấp dịch vụ vận tải hậu cần khắp toàn cầu.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./images/hero_bg_4.jpg" class="w-75 " alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>An toàn</h5>
+                <p class="text-light">Cung cấp dịch vụ vận tải hậu cần khắp toàn cầu.</p>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <hr class="container mx-auto" />
+    <!-- section 1 -->
+    <section class="features container my-5">
+      <div class="text-center align-items-center mt-5">
+        <h1 class="text2 pt-5" data-aos="fade-up" data-aos-delay="500">
+          Dịch vụ vận chuyển
+        </h1>
+        <p class="mx-auto w-75 py-2" data-aos="fade-up" data-aos-delay="1000">
+          Cung cấp dịch vụ vận tải hậu cần khắp toàn cầu
+        </p>
+      </div>
+      <div class="row py-5">
+        <div
+          class="
+            one
+            w-25
+            text-center
+            align-items-center
+            col-lg-4 col-md-6 col-12
+            mb-5
+          "
+          data-aos="fade-up"
+          data-aos-delay="2000"
+        >
+          <!-- <img src="" alt="" class="img-fluid"> -->
+          <span class="flaticon-travel flaticon-icon"></span>
+          <h3 class="pt-3">Hàng không</h3>
+          <p>
+            Với mạng lưới toàn cầu vận chuyển hàng hóa bằng đường hàng không, đường biển, đường sắt và đường bộ, chúng tôi hứa hẹn mang tới các giải pháp giao hàng tối ưu phù hợp nhất với doanh nghiệp.
+          </p>
+        </div>
+        <div
+          class="
+            one
+            w-25
+            text-center
+            align-items-center
+            col-lg-4 col-md-6 col-12
+            mb-5
+          "
+          data-aos="fade-up"
+          data-aos-delay="2200"
+        >
+          <!-- <img src="" alt="" class="img-fluid"> -->
+          <span class="flaticon-sea-ship-with-containers flaticon-icon"></span>
+          <h3 class="pt-3">Đường biển</h3>
+          <p>
+            Công nghệ tiên tiến hàng đầu của BigH cho phép các chuyên gia của chúng tôi xử lý hiệu quả những thách thức trong dịch vụ vận tải hậu cần.
+          </p>
+        </div>
+        <div
+          class="
+            one
+            w-25
+            text-center
+            align-items-center
+            col-lg-4 col-md-6 col-12
+            mb-5
+          "
+          data-aos="fade-up"
+          data-aos-delay="2400"
+        >
+          <!-- <img src="" alt="" class="img-fluid"> -->
+          <span class="flaticon-frontal-truck flaticon-icon"></span>
+          <h3 class="pt-3">Đường bộ</h3>
+          <p>
+            Chúng tôi cung cấp giải pháp vận tải với quy trình xuyên suốt được hỗ trợ bởi hệ thống thông tin đáng tin cậy, cơ sở hạ tầng và đa phương thức vận tải.
+          </p>
+        </div>
+        <div
+          class="
+            one
+            w-25
+            text-center
+            align-items-center
+            col-lg-4 col-md-6 col-12
+            mb-5
+          "
+          data-aos="fade-up"
+          data-aos-delay="2600"
+        >
+          <!-- <img src="" alt="" class="img-fluid"> -->
+          <span class="flaticon-barn flaticon-icon"></span>
+          <h3 class="pt-3">Kho bãi</h3>
+          <p>
+            Từ quản lý kho và hàng tồn kho đến chuỗi phân phối cuối cùng, hệ thống thông tin của chúng tôi ghi lại và quản lý dữ liệu vận chuyển trên khắp thế giới.
+          </p>
+        </div>
+        <div
+          class="
+            one
+            w-25
+            text-center
+            align-items-center
+            col-lg-4 col-md-6 col-12
+            mb-5
+          "
+          data-aos="fade-up"
+          data-aos-delay="2800"
+        >
+          <!-- <img src="" alt="" class="img-fluid"> -->
+          <span class="flaticon-platform flaticon-icon"></span>
+          <h3 class="pt-3">Kho hàng</h3>
+          <p>
+            Đội ngũ chuyên gia vận tải hậu cần của chúng tôi sẽ cung cấp các giải pháp được thiết kế riêng, phù hợp với nhu cầu của bạn.
+          </p>
+        </div>
+        <div
+          class="
+            one
+            w-25
+            text-center
+            align-items-center
+            col-lg-4 col-md-6 col-12
+            mb-5
+          "
+          data-aos="fade-up"
+          data-aos-delay="3000"
+        >
+          <!-- <img src="" alt="" class="img-fluid"> -->
+          <span class="flaticon-car flaticon-icon"></span>
+          <h3 class="pt-3">Vận tải chuyên dụng</h3>
+          <p>
+            Tại BigH, chúng tôi đã phát triển các dịch vụ vận tải ưu việt trên mạng lưới toàn cầu để đáp ứng các nhu cầu cụ thể của khách hàng trên toàn thế giới.
+          </p>
+        </div>
+      </div>
+    </section>
+    <hr class="container mx-auto" />
+    <!-- section 2 -->
+    <section class="about container my-5">
+      <div class="text-center align-items-center mt-5">
+        <h1 class="text2 pt-5" data-aos="fade-up" data-aos-delay="500">
+          Hàng hóa
+        </h1>
+        <p class="mx-auto w-75 py-2" data-aos="fade-up" data-aos-delay="1000">
+          Đa dạng và phong phú về các mặt hàng
+        </p>
+      </div>
+      <!-- 1 -->
+      <div class="row align-items-center">
+        <div
+          class="content col-lg-6 col-md-6 col-12 p-4"
+          data-aos="fade-left"
+          data-aos-duration="1500"
+        >
+          <h6>HÀNG CHẤT LƯỢNG CAO</h6>
+          <h2>Ô tô</h2>
+          <p>
+            Với mạng lưới toàn cầu vận chuyển hàng hóa bằng đường hàng không, đường biển, đường sắt và đường bộ, chúng tôi hứa hẹn mang tới các giải pháp giao hàng tối ưu phù hợp nhất với doanh nghiệp.
+          </p>
+        </div>
+        <div class="img col-lg-6 col-md-6 col-12 p-4" data-aos="flip-left" data-aos-duration="1500">
+          <img src="./images/img_1.jpg" alt="" class="img-fluid w-100" />
+        </div>
+      </div>
+      <!-- 2 -->
+      <div class="row align-items-center">
+        <div class="img col-lg-6 col-md-6 col-12 p-4" data-aos="flip-left" data-aos-duration="1500">
+          <img src="./images/img_2.jpg" alt="" class="img-fluid w-100" />
+        </div>
+        <div class="content col-lg-6 col-md-6 col-12 p-4" data-aos="fade-right" data-aos-duration="1500">
+          <h6>HÀNG CHẤT LƯỢNG CAO</h6>
+          <h2>Hàng không & vũ trụ</h2>
+          <p>
+            Công nghệ tiên tiến hàng đầu của BigH cho phép các chuyên gia của chúng tôi xử lý hiệu quả những thách thức trong dịch vụ vận tải hậu cần.
+          </p>
+        </div>
+      </div>
+      <!-- 3 -->
+      <div class="row align-items-center">
+        <div class="content col-lg-6 col-md-6 col-12 p-4" data-aos="fade-left" data-aos-duration="1500">
+          <h6>HÀNG CHẤT LƯỢNG CAO</h6>
+          <h2>Thực phẩm</h2>
+          <p>
+            Chúng tôi cung cấp giải pháp vận tải với quy trình xuyên suốt được hỗ trợ bởi hệ thống thông tin đáng tin cậy, cơ sở hạ tầng và đa phương thức vận tải.
+          </p>
+        </div>
+        <div class="img col-lg-6 col-md-6 col-12 p-4" data-aos="flip-left" data-aos-duration="1500">
+          <img src="./images/img_3.jpg" alt="" class="img-fluid w-100" />
+        </div>
+      </div>
+      <!-- 4 -->
+      <div class="row align-items-center">
+        <div class="img col-lg-6 col-md-6 col-12 p-4" data-aos="flip-left" data-aos-duration="1500">
+          <img src="./images/img_4.jpg" alt="" class="img-fluid w-100" />
+        </div>
+        <div class="content col-lg-6 col-md-6 col-12 p-4" data-aos="fade-right" data-aos-duration="1500">
+          <h6>HÀNG CHẤT LƯỢNG CAO</h6>
+          <h2>Dược phẩm</h2>
+          <p>
+            Từ quản lý kho và hàng tồn kho đến chuỗi phân phối cuối cùng, hệ thống thông tin của chúng tôi ghi lại và quản lý dữ liệu vận chuyển trên khắp thế giới.
+          </p>
+        </div>
+      </div>
+      <!-- 5 -->
+      <div class="row align-items-center">
+        <div class="content col-lg-6 col-md-6 col-12 p-4" data-aos="fade-left" data-aos-duration="1500">
+          <h6>HÀNG CHẤT LƯỢNG CAO</h6>
+          <h2>Điện tử viễn thông</h2>
+          <p>
+            Tại BigH, chúng tôi đã phát triển các dịch vụ vận tải ưu việt trên mạng lưới toàn cầu để đáp ứng các nhu cầu cụ thể của khách hàng trên toàn thế giới.
+          </p>
+        </div>
+        <div class="img col-lg-6 col-md-6 col-12 p-4" data-aos="flip-left" data-aos-duration="1500">
+          <img src="./images/img_5.jpg" alt="" class="img-fluid w-100" />
+        </div>
+      </div>
+    </section>
+
+    <!-- section 3 -->
+    <section class="video-intro">
+      <div class="row justify-content-center align-items-center mx-auto">
+        <i class="fa-solid fa-circle-play text-light"></i>
+        <p class="mx-auto mt-5 text-light fs-1">
+          Trải nghiệm dịch vụ của chúng tôi
+        </p>
+      </div>
+    </section>
+    <!-- section 4-->
+    <section class="comment container my-5 site-section">
+      <div class="text-center align-items-center mt-5 mb-5">
+        <h1 class="text2 pt-5" data-aos="fade-up" data-aos-delay="500">Đánh giá</h1>
+        <p class="mx-auto w-75 py-2" data-aos="fade-up" data-aos-delay="1000">
+          Cảm nhận tích cực của khách hàng về dịch vụ
+        </p>
+      </div>
+      <div class="slide-one-item home-slider owl-carousel">
+        <div >
+          <div class="testimonial">
+            <figure class="mb-4">
+              <img
+                src="images/n1.jpg"
+                alt="Image"
+                class="img-fluid mb-3"
+              />
+              <p>John Smith</p>
+            </figure>
+            <blockquote>
+              <p>
+                &ldquo;Sóng bắt đầu từ gió<br>Gió bắt đầu từ đâu<br>Em cũng không biết nữa<br>Từ khi nào ta yêu nhau.&rdquo;
+              </p>
+            </blockquote>
+          </div>
+        </div>
+        <div>
+          <div class="testimonial">
+            <figure class="mb-4">
+              <img
+                src="images/n2.png"
+                alt="Image"
+                class="img-fluid mb-3"
+              />
+              <p>Christine Aguilar</p>
+            </figure>
+            <blockquote>
+              <p>
+                &ldquo;Thôn Đoài ngồi nhớ thôn Đông<br>Một người chín nhớ mười mong một người<br>Gió mưa là bệnh của giời<br>Tương tư là bệnh của tôi yêu nàng.&rdquo;
+              </p>
+            </blockquote>
+          </div>
+        </div>
+
+        <div>
+          <div class="testimonial">
+            <figure class="mb-4">
+              <img
+                src="images/n3.jpg"
+                alt="Image"
+                class="img-fluid mb-3"
+              />
+              <p>Robert Spears</p>
+            </figure>
+            <blockquote>
+              <p>
+                &ldquo;Anh mang thầm em trong hồn anh<br>Như đứa trẻ thơ mãi để dành<br>Chiếc bánh mẹ cho từ sáng sớm<br>Anh chờ hạnh phúc những giờ xanh.&rdquo;
+              </p>
+            </blockquote>
+          </div>
+        </div>
+
+        <div>
+          <div class="testimonial">
+            <figure class="mb-4">
+              <img
+                src="images/n4.jpg"
+                alt="Image"
+                class="img-fluid mb-3"
+              />
+              <p>Bruce Rogers</p>
+            </figure>
+            <blockquote>
+              <p>
+                &ldquo;Phàm đã là nam nhân trong thiên hạ trước khi muốn đặt môi mình lên khuôn miệng xinh đẹp của nữ nhân nào đó thì trước tiên phải có trách nhiệm đổ đầy cơm vào.&rdquo;
+              </p>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr class="container mx-auto" />
+
+    <!-- section 5 -->
+    <section class="sub container my-5 rounded-lg" data-aos="flip-down" data-aos-duration="1000">
+      <div class="row" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="500">
+        <h2
+          class="
+            col-lg-6 col-md-6 col-12
+            justify-content-between
+            align-items-center
+          "
+        >
+          Đăng ký nhận thông báo ưu đãi?
+        </h2>
+        <input
+          class="col-lg-6 col-md-6 col-12"
+          type="text"
+          placeholder="Nhập email của bạn"
+        />
+      </div>
+    </section>
+    <hr class="container mx-auto" />
+
+    <!-- section 6 -->
+    <section class="blog container my-5">
+      <div class="text-center align-items-center mt-5 mb-5">
+        <h1 class="text2 pt-5" data-aos="fade-up" data-aos-delay="500">Bài viết mới</h1>
+        <p class="mx-auto w-75 py-2" data-aos="fade-up" data-aos-delay="1000">
+          Một số tin tức nổi bật
+        </p>
+      </div>
+      <div class="row justify-content-center mb-5">
+        <div class="row mb-3 align-items-stretch">
+          <div class="col-md-6 col-lg-6 mb-4 mb-lg-4" data-aos="zoom-in-right" data-aos-delay="1500">
+            <div class="h-entry">
+              <img src="./images/blog_1.jpg" alt="" class="img-fluid" />
+              <h2 class="font-size-regular mt-4">
+                <a href="">Ronaldo sút vào bụng cầu thủ Liverpool</a>
+              </h2>
+              <div class="meta mb-4 text-light">
+                by DoHung
+                <span class="mx-2">•</span>
+                Jan 18, 2019 at 2:00 pm
+                <span class="mx-2">•</span>
+                <a href="">News</a>
+              </div>
+              <p class="fs-1">
+                Phút bù giờ hiệp một, khi Man Utd đang bị dẫn 0-3, Ronaldo đẩy ngã Jones trong pha tranh chấp sát đường biên ngang. Siêu sao Bồ Đào Nha sau đó hai lần sút bóng vào bụng tiền vệ 20 tuổi người Anh.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6 mb-4 mb-lg-4" data-aos="zoom-in-left" data-aos-delay="2000">
+            <div class="h-entry">
+              <img src="./images/blog_2.jpg" alt="" class="img-fluid" />
+              <h2 class="font-size-regular mt-4">
+                <a href="">Ronaldo, Maguire nhận lỗi với CĐV</a>
+              </h2>
+              <div class="meta mb-4 text-light">
+                by DoHung
+                <span class="mx-2">•</span>
+                Jan 18, 2019 at 2:00 pm
+                <span class="mx-2">•</span>
+                <a href="">News</a>
+              </div>
+              <p class="fs-1">
+                Đôi khi kết quả trái với mục tiêu chiến đấu của chúng tôi. Đôi khi tỷ số không phải là điều chúng tôi muốn. Trách nhiệm thuộc về chúng tôi, vì không còn ai khác đáng để chỉ trích", Ronaldo viết trên Facebook sau trận đấu trên sân Old Trafford. "CĐV Man Utd thật tuyệt vời khi cổ vũ không ngừng. Họ xứng đáng nhận được kết quả tốt hơn. Chúng tôi có trách nhiệm đền đáp họ và giờ là lúc làm điều đó.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="container text-center text-lg-start text-muted">
+      <!-- Section: Social media -->
+      <section
+        class="
+          d-flex
+          justify-content-center justify-content-lg-between
+          p-4
+          border-bottom
+        "
+      >
+        <!-- Left -->
+        <div class="me-5 d-none d-lg-block">
+          <span>Theo dõi chúng tôi thông qua mạng xã hội:</span>
+        </div>
+        <!-- Left -->
+
+        <!-- Right -->
+        <div>
+          <a href="" class="me-4 text-reset">
+            <i class="fa-brands fa-facebook contact-icon"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fa-brands fa-twitter contact-icon"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fa-brands fa-google contact-icon"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fa-brands fa-instagram contact-icon"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fa-brands fa-linkedin contact-icon"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fa-brands fa-github contact-icon"></i>
+          </a>
+        </div>
+        <!-- Right -->
+      </section>
+      <!-- Section: Social media -->
+
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3"></i>Big H
+              </h6>
+              <p>
+                Dịch vụ cung ứng hàng đầu vũ trụ.
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Sản phẩm</h6>
+              <p>
+                <a href="#!" class="text-reset">Ô tô</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Thực phẩm</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Dược phẩm</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Điện tử</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Dịch vụ khách hàng</h6>
+              <p>
+                <a href="#!" class="text-reset">Giá thành</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Tuyển dụng</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Chính sách vận chuyển</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Chính sách bảo hành</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Liên hệ</h6>
+              <p><i class="fas fa-home me-3"></i> Yên Cường, Ý Yên, Nam Định</p>
+              <p>
+                <i class="fas fa-envelope me-3"></i>
+                info@example.com
+              </p>
+              <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+              <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright -->
+      <div
+        class="text-center p-4"
+        style="background-color: rgba(0, 0, 0, 0.05)"
+      >
+        © 2021 Copyright:
+        <a class="text-reset fw-bold" href="https://mdbootstrap.com/">DoHung</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+
+
+    <script>
+      var typed = new Typed(".typing", {
+        strings: ["dịch vụ vận tải hậu cần khắp toàn cầu","hàng hóa chất lượng chuẩn ISO 9001:2021","tất cả mọi thứ trên đời"],
+        typeSpeed: 40,
+        backSpeed: 30,
+        loop: true
+      });
+    </script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+      integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
